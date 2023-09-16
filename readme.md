@@ -50,5 +50,9 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **corrigindo-bugs**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/conhecendo-novos-conceitos-de-html-e-css/corrigindo-bugs)
     - [Deploy](https://mar0la.github.io/Explorer/nivel2/conhecendo-novos-conceitos-de-html-e-css/corrigindo-bugs/index.html)
-     
+  - **Semântica e acessibilidade**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/semantica-e-acessibilidade/corrigindo-bugs)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel2/semantica-e-acessibilidade/corrigindo-bugs/index.html)
+
+
 ###
