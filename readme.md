@@ -39,11 +39,16 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 ###
 
 **Nível 2**
--  **corrigindo-bugs**
+ - **introdução aohtml e css**
+   -  **corrigindo-bugs**
       - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/introdução-ao-html-css/corrigindo-bugs)
       - [Deploy](https://mar0la.github.io/Explorer/nivel2/introdução-ao-html-css/corrigindo-bugs/index.html)
--  **recriando-layote**
-      - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/introdução-ao-html-css/recriando-layote)
-      - [Deploy](https://mar0la.github.io/Explorer/nivel2/introdução-ao-html-css/recriando-layote/index.html)
-
+   -  **recriando-layote**
+        - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/introdução-ao-html-css/recriando-layote)
+        - [Deploy](https://mar0la.github.io/Explorer/nivel2/introdução-ao-html-css/recriando-layote/index.html)
+- **conhecendo novos conceitos de html e css**
+  - **corrigindo-bugs**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/conhecendo-novos-conceitos-de-html-e-css/corrigindo-bugs)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel2/conhecendo-novos-conceitos-de-html-e-css/corrigindo-bugs/index.html)
+     
 ###
