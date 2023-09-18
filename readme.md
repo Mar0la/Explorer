@@ -65,6 +65,10 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **criando-formularios**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/avançando-no-html-e-css/criando-formularios)
     - [Deploy](https://mar0la.github.io/Explorer/nivel3/avançando-no-html-e-css/criando-formularios/index.html)
+  - **criando-formulario-avançado**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/avançando-no-html-e-css/criando-formulario-avançado)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel3/avançando-no-html-e-css/criando-formulario-avançado/index.html)
+
 
 
 ###
