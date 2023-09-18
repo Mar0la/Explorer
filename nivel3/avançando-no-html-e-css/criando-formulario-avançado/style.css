@@ -142,7 +142,7 @@ form > fieldset:nth-child(1) legend {
 }
 
 .fieldset-wrapper select option:checked {
-  color:  #F67669;
+  color:  green;
 }
 
 .input-wrapper {
@@ -170,14 +170,13 @@ form > fieldset:nth-child(1) legend {
 
 #cool-2 input:valid {
   border: 2px solid  green;
-
 }
 
-input:invalid, select:invalid, textarea:invalid {
+input:invalid, textarea:invalid {
   border: 2px solid #F67669;
 }
 
-input:valid, select:valid, textarea:valid{
+input:valid, textarea:valid{
   border: 2px solid green;
 }
 
