@@ -71,6 +71,9 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **responsividade**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/responsividade)
     - [Deploy](https://mar0la.github.io/Explorer/nivel3/responsividade/index.html)
+  - **reforçando-a-responsividade**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/reforçando-a-responsividade)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel3/reforçando-a-responsividade/index.html)
 
 
 
