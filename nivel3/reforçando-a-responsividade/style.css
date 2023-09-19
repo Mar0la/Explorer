@@ -85,8 +85,8 @@ button {
     flex-direction: row;
     max-width: fit-content;
     gap: 16rem;
-
-    padding: 9rem 6rem;
+    
+    margin: 0 auto;
   }
 
   #descrição{
