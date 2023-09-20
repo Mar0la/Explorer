@@ -77,6 +77,9 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **iniciando-com-o-grid**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/iniciando-com-o-grid)
     - [Deploy](https://mar0la.github.io/Explorer/nivel3/iniciando-com-o-grid/index.html)
+  - **fotoblog**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel3/avançando-no-css/fotoblog)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel3/avançando-no-css/fotoblog/index.html)
 
 
 ###
