@@ -36,7 +36,7 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 **Nível 1**
   - **Não tem projeto, tem alguns quizes básicos, o foco maior é uma introdução ao mundo vasto da programação**
 
-###
+#
 
 **Nível 2**
  - **Introdução aohtml e css**
@@ -85,14 +85,14 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
     - [Deploy](https://mar0la.github.io/Explorer/nivel3/avançando-no-css/blog-de-gatos/index.html)
 
 
-###
+#
 
 
 **Nivel 4**
 - **Introdução à programação, lógica e algoritmos em Javascript**
   - **exercício01**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício01)
-    - [Deploy](https://mar0la.github.io/Explorer/nivel3/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício01/index.html)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício01/index.html)
   - **exercício02**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02)
-    - [Deploy](https://mar0la.github.io/Explorer/nivel3/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02/index.html)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02/index.html)
