@@ -1,0 +1,354 @@
+:root {
+  font-size: 62.5%;
+  --branco: #fff;
+  --roxo: #312D64;
+  --rosa: #B52184;
+  --color: linear-gradient(90deg, #312D64, #B52184 100%);
+  --main-color: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+  --border:.1rem solid rgba(0,0,0,.1);
+  --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+ margin: 0; padding: 0;
+ box-sizing: border-box;
+ font-family: 'Mulish', sans-serif;
+}
+
+#pag {
+  max-width: 100%;
+}
+
+.container  {
+  margin: 0 auto;
+}
+
+#star {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+#header {
+  text-align: center;
+}
+
+#ilustração-astronalta {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  transition: all 350ms ease-out;
+  border-radius: 0.5rem;
+}
+
+#ilustração-astronalta:hover {
+  transform:  scale(1.4);
+}
+
+
+#header h1 {
+  color: var(--rosa);
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-top: 1.7rem;
+}
+
+#header p {
+  color: var(--roxo);
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
+#header #arrow-icon {
+  width: 5.8rem;
+  height: 10rem;
+  margin: 3.5rem 0 9.3rem 0;
+}
+
+#header #arrow-icon {
+  transition: all 350ms ease-out;
+  border-radius: 0.5rem;
+}
+
+#header #arrow-icon:hover, #header #arrow-icon:active {
+  transform:  scale(1.4) ;
+}
+
+
+
+#figures {
+  display: flex;
+  padding: 5.3rem 9.2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.9rem;
+}
+
+#figures-color {
+  background-color: var(--roxo);
+  margin: 0
+}
+
+figure {
+  display: flex;
+  padding: 2.6rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 35.2rem;
+  
+  gap: 33.108px;
+  border-radius: 19.865px;
+  background: var(--branco);
+  box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+}
+
+figure img {
+  width: 8.0rem;
+  height: 8.0rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  transition: all 350ms ease-out;
+  border-radius: 0.5rem;
+}
+
+figure img:hover {
+  transform:  scale(2) rotate(-360deg);
+}
+
+figcaption {
+  width: 26.6rem;
+}
+
+figcaption h2 { 
+  color: var(--rosa);
+  font-size: 29.219px;
+  font-weight: 900;
+  margin-bottom: 2.0rem;
+}
+
+figcaption p { 
+  color: var(--roxo);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#form, form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin: 0 auto;
+  gap: 2.4rem;
+}
+
+
+#form  {
+  margin-bottom: 6.5rem;
+}
+
+form legend {
+  color: var(--rosa);
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin: 7.8rem 0 4.3rem 0;
+}
+
+form label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+form input {
+  width: 34.8rem;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 1.6rem;
+  border: 2px solid var(--roxo);
+  color: var(--roxo);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%; 
+}
+
+#name { 
+  background-image: url('assets/person.svg');
+  background-size: 2.4rem;
+  background-position-x: 1.4rem;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  text-indent: 3.0rem;
+}
+
+#email { 
+  background-image: url('assets/@-icon.svg');
+  background-size: 2.4rem;
+  background-position-x: 1.4rem;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  text-indent: 3.0rem;
+} 
+
+textarea {
+  display: flex;
+  width: 34.8rem;
+  padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+  gap: 1.0rem;
+  border-radius: 1.6rem;
+  border: 2px solid var(--roxo);
+  color: var(--roxo);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 140%; 
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  border: 2px solid transparent;
+  outline: 2px solid var(--rosa)
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.9rem;
+  height: 4.5rem;
+  outline: none;
+  border: none;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--branco);
+  background:var(--rosa);
+  box-shadow: var(--box-shadow);
+  overflow:hidden;
+  position: relative;
+  z-index: 0;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top:0; right:0;
+  height: 100%;
+  width:  0%;
+  background: var(--roxo);
+  z-index: -1;
+  transition: .2s ease-out;
+}
+
+button:hover {
+  letter-spacing: 1.0rem;
+  font-size: 1.2rem;
+  transition: 1s;
+  width: max-content;
+}
+
+button:hover::before{
+  left:0;
+  width:100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7.8rem;
+  padding: 1.6rem;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+footer p {
+  color: var(--branco);
+  font-size: 19.381px;
+  font-weight: 600;
+}
+
+
+@media (min-width: 1440px) {
+  #pag {
+    max-width: 100%;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2.8rem;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 10.3rem;
+  }
+
+  #header h1 {
+    font-size: 5.8rem;
+    font-weight: 900;
+  }
+
+  #header p {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 17.9rem;
+  }
+
+  #ilustração-astronalta {
+    width: 71.9rem;
+    height: 73.2rem;
+  }
+
+  #figures {
+    display: flex;
+    padding: 6.4rem 11.1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+  }
+
+  #figures-color {
+    margin: 0;
+  }
+
+  #form {
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  form {
+    margin: 0 auto;
+    gap: 2.4rem;
+  }
+
+  form  input{
+    width: 59.2rem;
+  }
+
+  form textarea  {
+    width: 59.2rem;
+  }
+  #star {
+    width: 64.4rem;
+    height: 61.2rem;
+    overflow: visible;
+    position: initial;
+  }
+
+  #header #arrow-icon:hover, #header #arrow-icon:active {
+    transform:  scale(2) ;
+  }
+  
+}

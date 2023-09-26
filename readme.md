@@ -33,13 +33,14 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 
 ### Desafios/projetos por níveis
 
+
 **Nível 1**
   - **Não tem projeto, tem alguns quizes básicos, o foco maior é uma introdução ao mundo vasto da programação**
 
 #
 
 **Nível 2**
- - **Introdução aohtml e css**
+ - **Introdução ao html e css**
    -  **corrigindo-bugs**
       - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel2/introdução-ao-html-css/corrigindo-bugs)
       - [Deploy](https://mar0la.github.io/Explorer/nivel2/introdução-ao-html-css/corrigindo-bugs/index.html)
@@ -96,3 +97,17 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **exercício02**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02)
     - [Deploy](https://mar0la.github.io/Explorer/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02/index.html)
+
+#
+
+**Intensivos**
+  - **Intensivão01**
+    - **explorer-sem-limites**
+      - [Repositório](https://github.com/Mar0la/Explorer/tree/main/intensivos/Intensivão01/explorer-sem-limites)
+      - [Deploy](https://mar0la.github.io/Explorer/intensivos/Intensivão01/explorer-sem-limites/index.html)
+    - **Iniciando-com-javaScript**
+      - [Repositório](https://github.com/Mar0la/Explorer/tree/main/intensivos/Intensivão01/Iniciando-com-javaScript)
+      - [Deploy](https://mar0la.github.io/Explorer/intensivos/Intensivão01/Iniciando-com-javaScript/index.html)
+  
+
+#
