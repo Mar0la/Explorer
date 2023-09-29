@@ -8,7 +8,7 @@ const buttonContainerJogarNovamente = document.querySelector('#container-jogar-n
 const spanContainerJogarNovamente = document.querySelector('#container-jogar-novamente h2 span ')
 
 
-let index = 0
+let index = 1
 let numeroAleatorio = Math.floor(Math.random() * 11)
 
 buttonContainerApresentação.addEventListener('click', () => {
@@ -26,7 +26,7 @@ buttonContainerApresentação.addEventListener('click', () => {
 })
 
 buttonContainerJogarNovamente.addEventListener('click', () => {
-  index = 0
+  index = 1
   numeroAleatorio = Math.floor(Math.random() * 11)
   tentativa.value = ''
   containerApresentação.classList.toggle('hidden')
