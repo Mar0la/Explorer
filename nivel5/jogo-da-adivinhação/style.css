@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 428rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  margin-bottom: 1.0rem;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .6rem;
+  background: #FFF;
+  box-shadow: .0rem .2rem .4rem .0rem rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+h1 {
+  color: #34355B;
+  font-family: 'Montserrat';
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+h2 {
+  color: #34355B;
+  font-family: 'DM Sans';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 3.3rem;
+}
+
+p {
+  color: rgba(52, 53, 91, 0.80);
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%; 
+  margin-bottom: 4.8rem;
+}
+
+input {
+  float: left;
+  min-width: 4.3rem;
+  padding: 1.6rem;
+  border-radius: .4rem 0rem 0rem .4rem;
+  background: #DCE2E9;
+  color: #34355B; 
+  font-weight: 400;
+}
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+button {
+  padding: 1.6rem;
+  border-radius: 0rem .4rem .4rem 0rem;
+  background: var(--iris-80, #7879F1);
+  color: var(--neutral-white, #FFF);
+  font-family: 'DM Sans';
+  font-weight: 700;
+  transition:  background .3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: var(--iris-80, #1f1e7d);
+}
+
+input, button {
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
