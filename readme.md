@@ -104,6 +104,10 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 - **jogo-da-adivinhação**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel5/jogo-da-adivinhação)
     - [Deploy](https://mar0la.github.io/Explorer/nivel5/jogo-da-adivinhação/index.html)
+- **biscoito-da-sorte**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel5/biscoito-da-sorte)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel5/biscoito-da-sorte/index.html)
+
 
 #
 
