@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-pag: #040924; 
+  --bg-button: #02799D;
+  --bg-buttonhover: #0492c2;
+  --bg-form: #FFF;
+  --bg-popup: rgba(0, 0, 0, 0.70);
+  
+
+  --font-color1: #FFF;
+  --font-color2: #00453A;
+  --font-Title-color: #0C3440;
+  --font-placeholderfocus-color: #212529
+}
+
+#pag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--bg-pag);
+}
+
+form {
+  text-align: left;
+  max-width: 42.8rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  background: var(--bg-form);
+  border-radius: .6rem;
+  box-shadow: 0px .2rem .4rem 0px rgba(0, 0, 0, 0.10);
+}
+
+input,label,button,legend,form {
+  font-family: 'Roboto';
+}
+
+.wrapper-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  position: relative;
+}
+.wrapper-input:nth-child(2) {
+  margin-bottom: 1.6rem;
+}
+.wrapper-input:nth-child(3) {
+  margin-bottom: 3.2rem;
+}
+
+legend {
+  color: var(--font-Title-color);
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.0rem; 
+  margin-bottom: 3.2rem;
+}
+
+label {
+  color: var(--font-color2);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem; 
+}
+
+input {
+  padding: 1.6rem;
+  min-width: 30rem;
+  border-radius: .4rem;
+  background: #DCE2E9;
+  outline: none;
+  border: .2rem solid rgba(73, 80, 87, 0.30);
+
+}
+
+input:focus {
+  border: .2rem solid var(--brand-colors-explorer-mid, #02799D);
+}
+
+input:focus::placeholder {
+  color: var(--font-placeholderfocus-color)
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  min-width: 30rem;
+  height: 5.2rem;
+  padding: 1.6rem;
+  border-radius: .4rem;
+  border: none;
+  color: var(--font-color1);
+  background: var(--bg-button);
+  cursor: pointer;
+  transition: all .2s;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 20rem; 
+}
+
+button:hover {
+  background-color: var(--bg-buttonhover)
+}
+
+#modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#popup-imc {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  border-radius: .6rem;
+  background: var(--bg-form);
+  box-shadow: 0rem .2rem .4rem 0rem rgba(0, 0, 0, 0.10);
+  position: relative;
+}
+
+#popup-imc button {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  border: none;
+  background-color: var(--bg-form);
+  cursor: pointer;
+}
+
+#popup-imc p {
+  color: var(--font-Title-color);
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.0rem;
+  background: var(--bg-form);
+}
+
+.hidden {
+  position: relative;
+  visibility: hidden;
+}
