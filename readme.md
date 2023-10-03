@@ -110,6 +110,9 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 - **imc**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel5/imc)
     - [Deploy](https://mar0la.github.io/Explorer/nivel5/imc/index.html)
+- **focus-timer**
+    - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel5/focus-timer)
+    - [Deploy](https://mar0la.github.io/Explorer/nivel5/focus-timer/index.html)
 
 #
 
