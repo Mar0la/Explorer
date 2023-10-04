@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./src/main.js" defer></script>
+
+
+  <title>Focus TimerV2</title>
+</head>
+<body>
+  <main>
+    <section id="timer">
+      <div id="temporizador">
+        <p><span id="minutes">00</span>:<span id="seconds">00</span></p>
+      </div>
+      <div id="controls-time">
+        <button class="ph ph-play-circle" data-action="start">
+          <span class="sr-only">Iniciar contador</span>
+        </button>
+        <button class="ph ph-stop-circle" data-action="stop">
+          <span class="sr-only">Parar contador</span>
+        </button>
+        <button class="ph ph-plus-circle" data-action="addFiveMinutes">
+          <span class="sr-only">Adicionar mais 5 minutos ao contador</span>
+        </button>
+        <button class="ph ph-minus-circle" data-action="removeFiveMinutes">
+          <span class="sr-only">Tirar 5 minutos  do contador</span>
+        </button>
+      </div>
+    </section>
+    <sction id="selected-sound">
+      <button class="ph ph-tree" data-action="startSoundFlorest">
+        <span class="sr-only">Som de floresta</span>
+      </button>
+      <button class="ph ph-cloud-rain" data-action="startSoundRain">
+        <span class="sr-only">Som de chuva</span>
+      </button>
+      <button class="ph ph-storefront" data-action="startSoundCoffeShope">
+        <span class="sr-only">Som de cafeteria</span>
+      </button>
+      <button class="ph ph-flame" data-action="startSoundFlame">
+        <span class="sr-only">Som de fogo</span>
+      </button>
+    </sction>
+  </main>
+</body> 
+</html>

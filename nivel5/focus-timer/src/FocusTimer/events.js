@@ -13,7 +13,6 @@ export function registerControls() {
     }
     Actions[action]()
   })
-  Element.controls.add
 }
 
 

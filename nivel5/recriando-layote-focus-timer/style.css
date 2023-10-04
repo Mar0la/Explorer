@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-efect: #02799D;
+  --font-color: #323238;
+  --font-color-white: #fff
+}
+
+
+body,button {
+  color: var(--font-color);
+  font-family: 'Roboto';
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0px;
+  border: 0;
+  appearance: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 19.2rem;
+  height: 100vh;
+}
+
+#timer {
+  max-width: 32.1rem;
+}
+
+#temporizador {
+  font-size: 12.6rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.7rem;
+}
+
+#controls-time {
+  text-align: center;
+}
+
+
+#controls-time button {
+  font-size: 4.8rem;
+  background: transparent;
+}
+
+#controls-time button + button {
+  margin-left: 3.9rem;
+}
+
+#selected-sound {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem
+}
+
+
+#selected-sound button {
+  flex: 0 0 calc(50% - 0px);
+  font-size: 6.8rem;
+  padding: 3rem;
+  width: 13.8rem;
+  height: 15.2rem;
+  border-radius: 2rem;
+}
+
+button:active {
+  color: var(--color-efect);
+}
+
+.active {
+  color: var(--color-efect);
+}
