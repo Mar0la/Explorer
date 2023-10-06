@@ -119,6 +119,14 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 
 #
 
+**Nivel 6**
+- **Javascript antes do framework**
+  - **spa-universeo**
+      - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel6/javascript-antes-do-framework/spa-universe)
+      - [Deploy](https://mar0la.github.io/Explorer/nivel6/javascript-antes-do-framework/spa-universe/index.html)
+
+#
+
 **Intensivos**
   - **Intensivão01**
     - **explorer-sem-limites**
