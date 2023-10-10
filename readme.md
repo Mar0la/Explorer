@@ -99,7 +99,6 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
     - [Deploy](https://mar0la.github.io/Explorer/nivel4/Introdução-à-programação-lógica-e-algoritmos-em-javascript/exercício02/index.html)
 
 #
-
 **Nivel 5**
 - **jogo-da-adivinhação**
     - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel5/jogo-da-adivinhação)
@@ -130,6 +129,10 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 
 #
 
+**Nível 7**
+  - **Não tem projeto, tem um quiz , o foco maior é uma introdução ao git/github.**
+
+#
 **Intensivos**
   - **Intensivão01**
     - **explorer-sem-limites**
