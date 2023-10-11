@@ -133,6 +133,13 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
   - **Não tem projeto, tem um quiz , o foco maior é uma introdução ao git/github.**
 
 #
+
+
+**Nível 8**
+  - **primeiro-projeto-em-node**
+      - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel8)
+
+#
 **Intensivos**
   - **Intensivão01**
     - **explorer-sem-limites**
