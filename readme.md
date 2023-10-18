@@ -140,6 +140,16 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
       - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel8)
 
 #
+
+**Nível 9**
+  - **RocketNote**
+      - [Repositório](https://github.com/Mar0la/RocketNote)
+      - [Deploy](https://mar0la.github.io/RocketNote/)
+  - **RocketMovie**
+      - [Repositório](https://github.com/Mar0la/RocketMovie)
+      - [Deploy](https://mar0la.github.io/RocketMovie/)
+
+#
 **Intensivos**
   - **Intensivão01**
     - **explorer-sem-limites**
