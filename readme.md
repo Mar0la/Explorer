@@ -134,21 +134,20 @@ Este é o repositório de **desafios e projetos** do curso **Explorer** da **Roc
 
 #
 
-
 **Nível 8**
   - **primeiro-projeto-em-node**
       - [Repositório](https://github.com/Mar0la/Explorer/tree/main/nivel8)
 
 #
 
-**Nível 9**
+**Nível 9-10**
   - **RocketNote**
       - [Repositório](https://github.com/Mar0la/RocketNote)
-      - [Deploy](https://mar0la.github.io/RocketNote/)
-  - **RocketMovie**
-      - [Repositório](https://github.com/Mar0la/RocketMovie)
-      - [Deploy](https://mar0la.github.io/RocketMovie/)
-
+ - **RocketMovie**
+    - **Front-end**
+      - [Repositório](https://github.com/Mar0la/RocketMovies-FrontEnd)
+    - **Back-end**
+      - [Repositório](https://github.com/Mar0la/RocketMovies-BackEnd)
 #
 **Intensivos**
   - **Intensivão01**
